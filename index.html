@@ -4,18 +4,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>E-commerce de Tênis</title>
+    <title>Syntaxwear-tênis e Sneakers Online</title>
     <link rel="stylesheet" href="./reset.css">
-    <link rel="stylesheet" href="./css/variables.css">
-    <link rel="stylesheet" href="./css/styles.css"> 
+    <link rel="stylesheet" href="./assets/css/variables.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
 </head>
 
 <body>
     <!-- Cabeçalho com logo e navegação -->
-    <header class="main-header">
-        <div class="container">
-            <nav class="main-nav">
-                <!-- Logo e menu de navegação serão adicionados aqui -->
+    <header class="header">
+        <div class="container header-inner">
+            <!-- Logo -->
+            <h1 class="site-logo">
+                <a href="/" title="Syntaxwear-tênis e Sneakers Online">
+                    <img src="./assets/images/logo.svg" alt="Syntaxwear - tênis e Sneakers Online">
+                </a>
+            </h1>
+
+            <!-- Menu central (categorias principais) -->
+            <nav class="nav-center" aria-label="Categorias Principais">
+                <ul>
+                    <li><a href="#">Masculino</a></li>
+                    <li><a href="#">Feminino</a></li>
+                    <li><a href="#">Outlet</a></li>
+                </ul>
+            </nav>
+
+            <!-- Menu à direita com links rápidos e ícones -->
+            <nav class="nav-right" aria-label="Links rápidos e conta">
+                <ul>
+                    <li><a href="#">Nossas lojas</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li class="icon-link">
+                        <a href="#" aria-label="Minha conta">
+                            <img src="./assets/images/user-icon.svg" alt="Ícone usuário">
+                        </a>
+                    </li>
+                    <li><a href="#" aria-label="Ajuda"><img src="./assets/images/help.svg" alt="ajuda"></a></li>
+
+                    <li class="icon-link">
+                        <a href="#" aria-label="Carrinho">
+                            <img src="./assets/images/cart-icon.svg" alt="Ícone carrinho">
+                        </a>
+                    </li>
+                </ul>
             </nav>
         </div>
     </header>
