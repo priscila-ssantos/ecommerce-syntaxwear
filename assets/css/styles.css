@@ -1,9 +1,9 @@
 body {
     font-family: var(--fonte-principal);
     color: #333333;
-    background-color: black;
 }
 
+/* Cabeçalho com logo e navegação  */
 .header-inner {
 
     position: fixed;
@@ -24,11 +24,13 @@ body {
     height: 48px;
 }
 
+/* Menu central (categorias principais)  */
 .nav-center ul {
     display: flex;
     gap: 2.5rem;
 }
 
+/* Menu e ícones */
 .nav-center a,
 .nav-right a {
     font-size: 1.25rem;
@@ -55,74 +57,58 @@ body {
 
 }
 
-/* hero */
-.hero-section {
-    background: url(../../assets/images/hero.jpg)
-no-repeat center;
-background-size: cover;
-height: 500px;
-position: relative;
- }
 
- .hero-overlay{
-    width: 100%;
-    height: 100%;
+/* products-card */
+.categories-section {
+    padding: 40px;
+    padding-bottom: 40px;
     display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    padding: 0 7.0rem;
- }
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
 
- .hero-content{
-    color: #ffffff;
-    max-width: 370px;
+.category-card {
+    position: relative;
+    width: 317px;
+    height: 500px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.overlay{
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.25);
+    z-index: 1;
+}
+
+.category-name {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
     text-align: center;
- }
-
- .hero-buttons{
     display: flex;
-    gap: 16px;
- }
- .hero-content .hero-title{
-    font-size: 1.87rem;
-    margin-bottom: 40px;
-    font-weight: 400;
-    line-height: 36px;
-    
- }
-
- .hero-content .hero-subtitle{
-    font-size: 1.25rem;
-    font-weight: 400;
-    
- }
-
- .btn{
-font-size: 1.25rem;
-width: 161px;
-height: 48px;
-border-radius: 25px;
-color: #ffffff;
-font-weight: 400;
-padding: 10px 20px;
-transition: background-color 0.3s, color 0.3s, border 0.3s;
+    justify-content: center;
+    align-items: center;
 }
 
-.btn-outline{
-    background-color: transparent;
-    border: 2px solid #ffffff;
-    line-height: 23px;
-
+.casual {
+    background: url(../../assets/images/products/tênis\ casual.jpg) no-repeat center;
+    background-size: cover;
 }
 
-.btn-filled{
-    background-color: #ffffff;
-    color: #6329A2;
-    
+.esporte{
+    background: url(../../assets/images/products/tênis\ esporte.jpg) no-repeat center;
+    background-size: cover
 }
-
-.btn:hover{
-    background-color: #6329A2;
-    color: #ffffff;
-    border-color: #6329A2;
+.moderno{
+    background: url(../../assets/images/products/tênis\ moderno.jpg) no-repeat center;
+    background-size: cover
+}
+.futurista{
+    background: url(../../assets/images/products/tênis\ futurista.jpg) no-repeat center;
+    background-size:cover
 }
