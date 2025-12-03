@@ -3,21 +3,29 @@ body {
     color: #333333;
 }
 
+main{
+    padding: 2.5em 0 0;
+    max-width: 1360px;
+    margin:0 auto;
+}
+
 /* Cabeçalho com logo e navegação  */
 .header-inner {
-
     position: fixed;
-    top: 20px;
+    top: 60px;
     left: 50%;
     transform: translate(-50%);
-    width: calc(100% - 40px);
+    width: calc(100% - 200px);
+    
     border-radius: 15px;
     z-index: 999;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0.225rem 1.25rem;
+     flex-wrap: nowrap;
+    padding: 0.3rem 1rem;
     background-color: #ffffff;
+  
 }
 
 .site-logo img {
@@ -27,13 +35,13 @@ body {
 /* Menu central (categorias principais)  */
 .nav-center ul {
     display: flex;
-    gap: 2.5rem;
+    gap: 1.5rem;
 }
 
 /* Menu e ícones */
 .nav-center a,
 .nav-right a {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     color: #333333;
 }
 
@@ -65,12 +73,12 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 30px;
+    gap: 26px;
 }
 
 .category-card {
     position: relative;
-    width: 317px;
+    width: 300px;
     height: 500px;
     border-radius: 15px;
     overflow: hidden;
