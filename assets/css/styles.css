@@ -1,12 +1,12 @@
 body {
     font-family: var(--fonte-principal);
     color: #333333;
-    padding-top: 100px;
+    padding-top: 6.25rem;
 }
 
 main{
-    padding: 2.5em 20px 2.5rem;
-    max-width: 1360px;
+    padding: 2.5em 1.25rem 2.5rem;
+    max-width: 85rem;
     margin:0 auto;
 }
 
@@ -16,8 +16,8 @@ main{
     top: 0;
     left: 50%;
     transform: translateX(-50%);
-    width: calc(100% - 40px);
-    max-width: 1320px;
+    width: calc(100% - 2.5rem);
+    max-width: 82.5rem;
     border-radius: 0;
     z-index: 999;
     display: flex;
@@ -29,7 +29,7 @@ main{
 }
 
 .site-logo img {
-    height: 48px;
+    height: 3rem;
 }
 
 /* Menu central (categorias principais)  */
@@ -57,7 +57,7 @@ main{
 }
 
 .nav-right img {
-    height: 20px;
+    height: 1.25rem;
 }
 
 .nav-right a:hover {
@@ -68,17 +68,17 @@ main{
 
 /* products-card */
 .categories-section {
-    padding: 40px 0;
+    padding: 2.5rem 0;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 26px;
+    gap: 1.625rem;
 }
 
 .category-card {
     position: relative;
     width: 100%;
     aspect-ratio: 3 / 4.7;
-    border-radius: 15px;
+    border-radius: 0.9375rem;
     overflow: hidden;
 }
 
