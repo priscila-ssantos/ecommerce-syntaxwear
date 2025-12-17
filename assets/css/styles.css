@@ -1,10 +1,11 @@
 body {
     font-family: var(--fonte-principal);
     color: #333333;
+    padding-top: 100px;
 }
 
 main{
-    padding: 2.5em 0 2.5rem;
+    padding: 2.5em 20px 2.5rem;
     max-width: 1360px;
     margin:0 auto;
 }
@@ -12,12 +13,12 @@ main{
 /* Cabeçalho com logo e navegação  */
 .header-inner {
     position: fixed;
-    top: 60px;
+    top: 0;
     left: 50%;
-    transform: translate(-50%);
-    width: calc(100% - 200px);
-    
-    border-radius: 15px;
+    transform: translateX(-50%);
+    width: calc(100% - 40px);
+    max-width: 1320px;
+    border-radius: 0;
     z-index: 999;
     display: flex;
     justify-content: space-between;
@@ -25,7 +26,6 @@ main{
      flex-wrap: nowrap;
     padding: 0.3rem 1rem;
     background-color: #ffffff;
-  
 }
 
 .site-logo img {
@@ -68,18 +68,16 @@ main{
 
 /* products-card */
 .categories-section {
-    padding: 40px;
-    padding-bottom: 40px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    padding: 40px 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     gap: 26px;
 }
 
 .category-card {
     position: relative;
-    width: 300px;
-    height: 500px;
+    width: 100%;
+    aspect-ratio: 3 / 4.7;
     border-radius: 15px;
     overflow: hidden;
 }
