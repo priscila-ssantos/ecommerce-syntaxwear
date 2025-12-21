@@ -146,37 +146,42 @@ body::before {
         padding: 80px 20px 20px;
         background-color: whitesmoke;
         transition: right 0.3s ease;
-        align-items: flex-start;
+        align-items: center;
     }
 
     .nav-center,
     .nav-right {
+  background: linear-gradient(180deg,
+            rgba(255, 255, 255, 0.55) 0%,
+            rgba(255, 255, 255, 0.25) 60%,
+            rgba(255, 255, 255, 0) 100%);
 
-        background-color: rgb(244, 244, 198);
         width: 100%;
         text-align: center;
     }
 
     .nav-center ul,
     .nav-right ul {
+        display: ;
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
         gap: 2rem;
         width: 100%;
     }
 
     .nav-center a,
     .nav-right a {
-display: block;
+        display: block;
         width: 100%;
         border-bottom: 1px solid #eeeeee;
         padding: 0.3rem 0;
         font-size: 1rem;
     }
 
-   
-}
- .menu-toggle:checked .nav-container {
-        right: 0;
 
-    }
+}
+
+.menu-toggle:checked~.nav-container {
+    right: 0;
+
+}
