@@ -1,4 +1,4 @@
-# SyntaxWear
+# SyntaxWear-Calçados
 
 Bem-vindo ao repositório oficial da SyntaxWear, um projeto de e-commerce de front-end totalmente responsivo, focado na apresentação e venda de calçados.
 
