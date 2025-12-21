@@ -1,16 +1,16 @@
-.card{
-  background-position: center;
+.card {
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
     border-radius: 1.25rem;
-    
+
 }
 
 .highlight {
     grid-area: highlight;
-    background-image: url(../../images/card_imagem.jpg);
-  
+    background-image: url(../../images/card_imagem\ copy.jpg);
+
 }
 
 .Sneaker-purple {
@@ -20,7 +20,8 @@
 
 .model {
     grid-area: model;
-background-image: url(../../images/modelo-feminino.jpg);}
+    background-image: url(../../images/modelo-feminino.jpg);
+}
 
 .sneaker-color {
     grid-area: sneaker-color;
@@ -29,7 +30,8 @@ background-image: url(../../images/modelo-feminino.jpg);}
 
 .sneaker-white {
     grid-area: sneaker-white;
-background-image: url(../../images/ztênis\ preto-branco.jpg);}
+    background-image: url(../../images/ztênis\ preto-branco.jpg);
+}
 
 .sneaker-silver {
     grid-area: sneaker-silver;
@@ -48,32 +50,61 @@ background-image: url(../../images/ztênis\ preto-branco.jpg);}
     gap: 1.875rem;
 }
 
-.top1-content{
+.top1-content {
     position: absolute;
-   left: 50%;
-   top: 50%;
+    left: 50%;
+    top: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
     z-index: 1;
-    
+
 }
 
-.card-title{
+.card-title {
     color: #EDEDED;
     font-size: 1.25rem;
     font-weight: 400;
     margin-bottom: 10px;
 }
 
-.car-subtitle{
+.car-subtitle {
     color: #EDEDED;
     font-size: 1.5rem;
     font-weight: 400;
     margin-bottom: 20px;
 }
 
-.bta-group{
+.bta-group {
     display: flex;
     gap: 10px;
     justify-content: center;
+}
+
+@media(max-width: 768px) {
+    .grid-section {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(5, auto);
+        grid-template-areas:
+            "highlight highlight"
+            "sneaker-white sneaker-white"
+            "model sneaker-color"
+            "model sneaker-silver"
+            "Sneaker-purple Sneaker-purple";
+            max-width: 100%;
+            gap: 0.625rem;
+    }
+
+    .highlight{
+        min-height: 500px;
+    }
+
+    .model{
+        min-height: 370px;
+    }
+
+    .sneaker-white,
+    .Sneaker-purple{
+        min-height: 190px;
+    }
+    
 }
