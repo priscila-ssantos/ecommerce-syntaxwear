@@ -23,7 +23,7 @@ SyntaxWear é a vitrine perfeita para explorar e adquirir as últimas tendência
 
 ## Live Demo
 
-[Clique aqui](https://github.com/priscila-ssantos/ecommerce-syntaxwear.git/) para ver o projeto em ação.
+[Clique aqui](https://vercel.com/priscila-santos-projects-d78cb561/ecommerce-syntaxwear-calcados/2a6e36hyaHdT1ppp2UMoQRb9t2G4) para ver o projeto em ação.
 
 ## Features
 
