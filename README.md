@@ -23,8 +23,8 @@ SyntaxWear é a vitrine perfeita para explorar e adquirir as últimas tendência
 
 ## Live Demo
 
-[Clique aqui](ecommerce-syntaxwear-calcados.vercel.app
-) para ver o projeto em ação.
+[Clique aqui para ver o projeto em ação](https://ecommerce-syntaxwear-calcados.vercel.app)
+
 
 ## Features
 
