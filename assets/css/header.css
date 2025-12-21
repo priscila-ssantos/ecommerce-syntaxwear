@@ -109,7 +109,9 @@ body::before {
     display: flex;
     justify-content: space-around;
     align-items: center;
-
+    width: 100%;
+    flex: 1;
+    margin-left: 10rem;
 }
 
 /* Menu hambúrguer responsivo */
