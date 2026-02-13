@@ -108,12 +108,16 @@ footer {
 
 .footer-copy {
   font-size: 1.25rem;
-  padding: 10px 0;
+  padding: 5px 0;
 }
 
 .footer-author {
+    display: flex;
+  justify-content: center;
+  align-items: center; /* alinha tudo na mesma altura */
+  gap: 4px;
   font-size: 1.2rem;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
 }
 
 @media(max-width: 1000px) {
@@ -139,17 +143,25 @@ footer {
   }
 
   .footer-copy{
+    
     font-size: 1rem;
     padding: 1.5rem 0 1.5rem;
   }
 }
 
 .copy-link {
-  display: inline-block;
+  
+  display: inline-flex;
+  align-items: center;
+  margin-left: 4px;
+  color: #4DA5F2;
+  gap: 5px;
   transition: transform 0.3s ease;
+  
+  
 }
 
 .copy-link:hover {
-  transform: scale(1.1
-  );
+  
+  transform: scale(1.1) translateY(1px);
 }
